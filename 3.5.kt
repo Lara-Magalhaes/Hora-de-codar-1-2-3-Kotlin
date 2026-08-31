@@ -30,11 +30,11 @@ fun main()
 
         resposta = readln().trim().uppercase()
 
-        if (resposta == "S" || resposta == "SIM" || resposta == "sim")
+        if (resposta.uppercase() == "S" |)
         {
             println("Sem problemas, você será redirecionado...\n")
         }
-        else if (resposta == "N" || resposta == "NÃO" || resposta == "NAO")
+        else if (resposta.lowercase() == "N" || resposta == "NÃO" || resposta == "NAO")
         {
             println("Sem problema , o número de aprovados é : $contadorAprov")
         }
