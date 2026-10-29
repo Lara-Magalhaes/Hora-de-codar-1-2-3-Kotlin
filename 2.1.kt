@@ -7,4 +7,5 @@ fun main () {
 
     if (N1>N2) { println("O maior é $N1 ")}
      else if (N2 > N1 ) {println("O maior é $N2")}
+     else {println("Os números são iguais.")}
      println("Os números escolhidos foram: $N1 , e $N2")}
